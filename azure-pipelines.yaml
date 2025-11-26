@@ -3,7 +3,7 @@ trigger:
 resources:
   - repo: self
 variables:
-  dockerRegistryServiceConnection: "dd42c99b-7b18-42ae-9fe8-fa42ecd0bc04"
+  dockerRegistryServiceConnection: ""
   imageRepository: "myweatherappv1"
   containerRegistry: "aksgitops1220acr.azurecr.io"
   dockerfilePath: "**/src/dockerfile"
